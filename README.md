@@ -10,7 +10,7 @@ Understanding physics often requires a bridge between mathematical equations and
 - **Analyze Data:** Live telemetry showing time, position, velocity, and momentum alongside interactive charts.
 - **Experiment:** Switch between different celestial bodies (Earth, Moon, Mars, Jupiter) to see how gravity alters physical laws.
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 - **Frontend:** [React](https://react.dev/) (v19)
 - **Styling:** [Tailwind CSS](https://tailwindcss.com/) (CDN)
@@ -19,26 +19,18 @@ Understanding physics often requires a bridge between mathematical equations and
 - **Physics Engine:** Custom-built 2D Canvas integration for kinematic equations.
 - **Routing:** [React Router DOM](https://reactrouter.com/) (v7)
 
-## 🏃 How to Run the Project
+## How to Run the Project
 
 This project is built using ES modules and a standard web structure.
 
-1.  **Direct Browser Access:**
-    Since the project uses an `importmap` in `index.html`, you can serve the root directory using any local development server.
-    
-    Using Python:
-    ```bash
-    python -m http.server 8000
-    ```
-    Or using Node.js `serve`:
-    ```bash
-    npx serve .
-    ```
+- Open the terminal
+- Type "npm install" 
+- Type "npm run dev"
 
 2.  **Access the App:**
     Open your browser and navigate to `http://localhost:8000` (or the port specified by your server).
 
-## 📦 Dependencies
+##  Dependencies
 
 All dependencies are loaded via CDN (esm.sh) as defined in the `index.html` import map:
 - `react` & `react-dom`
@@ -46,7 +38,7 @@ All dependencies are loaded via CDN (esm.sh) as defined in the `index.html` impo
 - `react-router-dom`
 - `recharts`
 
-## 💡 Important Instructions
+##  Important Instructions
 
 - **AI Prompting:** Use keywords like "velocity", "angle", "height", "mass", "force", and "gravity" (or planet names) in the input box to see the lab parameters update automatically.
 - **Environment Context:** Mentioning "tower", "bridge", "cliff", or "moon" will change the visual backdrop of the simulation.
