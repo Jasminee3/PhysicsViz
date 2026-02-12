@@ -38,6 +38,17 @@ This project is built using ES modules and a standard web structure.
 2.  **Access the App:**
     Open your browser and navigate to `http://localhost:8000` (or the port specified by your server).
 
+3.  **VS Code**
+   Make sure Node.js need to be installed.
+   Open Terminal->New Terminal
+   Type below commands
+   step1:   npm install
+   step2:  npm run dev
+   step3:  You’ll see output like:
+           ➜ Local: http://localhost:5173/
+   step4:    Click the link OR copy into browser:
+                http://localhost:5173
+     
 ## 📦 Dependencies
 
 All dependencies are loaded via CDN (esm.sh) as defined in the `index.html` import map:
